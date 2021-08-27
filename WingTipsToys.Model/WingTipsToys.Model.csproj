@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BaseEntity.cs~RF12d09db6.TMP" />
+    <None Remove="BaseEntity.cs~RF12e583fd.TMP" />
+    <None Remove="CategoryModel.cs~RF1d78394.TMP" />
+    <None Remove="ProductModel.cs~RF12e34875.TMP" />
+  </ItemGroup>
+
+</Project>

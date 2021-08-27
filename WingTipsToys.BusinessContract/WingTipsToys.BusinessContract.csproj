@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ICartItemBusinessContract.cs~RF13b94c1e.TMP" />
+    <None Remove="ICategoryBusinessContract.cs~RF1bba463.TMP" />
+    <None Remove="IProductBusinessContract.cs~RF12f8e55b.TMP" />
+    <None Remove="IProductBusinessContract.cs~RF16fabbeb.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WingsTipsToys.Data\WingTipsToys.Data.csproj" />
+    <ProjectReference Include="..\WingTipsToys.Model\WingTipsToys.Model.csproj" />
+    <ProjectReference Include="..\WingTipsToys.ViewModel\WingTipsToys.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,271 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Applications\\WingTipsToys.DataAccess\\WingTipsToys.DataAccess.csproj": {}
+  },
+  "projects": {
+    "E:\\Applications\\WingsTipsToys.Data\\WingTipsToys.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Applications\\WingsTipsToys.Data\\WingTipsToys.Data.csproj",
+        "projectName": "WingTipsToys.Data",
+        "projectPath": "E:\\Applications\\WingsTipsToys.Data\\WingTipsToys.Data.csproj",
+        "packagesPath": "C:\\Users\\Behrooz\\.nuget\\packages\\",
+        "outputPath": "E:\\Applications\\WingsTipsToys.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Behrooz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Applications\\WingTipsToys.Model\\WingTipsToys.Model.csproj": {
+                "projectPath": "E:\\Applications\\WingTipsToys.Model\\WingTipsToys.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Applications\\WingTipsToys.DataAccess\\WingTipsToys.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Applications\\WingTipsToys.DataAccess\\WingTipsToys.DataAccess.csproj",
+        "projectName": "WingTipsToys.DataAccess",
+        "projectPath": "E:\\Applications\\WingTipsToys.DataAccess\\WingTipsToys.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Behrooz\\.nuget\\packages\\",
+        "outputPath": "E:\\Applications\\WingTipsToys.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Behrooz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Applications\\WingsTipsToys.Data\\WingTipsToys.Data.csproj": {
+                "projectPath": "E:\\Applications\\WingsTipsToys.Data\\WingTipsToys.Data.csproj"
+              },
+              "E:\\Applications\\WingTipsToys.Model\\WingTipsToys.Model.csproj": {
+                "projectPath": "E:\\Applications\\WingTipsToys.Model\\WingTipsToys.Model.csproj"
+              },
+              "E:\\Applications\\WinngTipsToys.DataAccessContract\\WingTipsToys.DataAccessContract.csproj": {
+                "projectPath": "E:\\Applications\\WinngTipsToys.DataAccessContract\\WingTipsToys.DataAccessContract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Applications\\WingTipsToys.Model\\WingTipsToys.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Applications\\WingTipsToys.Model\\WingTipsToys.Model.csproj",
+        "projectName": "WingTipsToys.Model",
+        "projectPath": "E:\\Applications\\WingTipsToys.Model\\WingTipsToys.Model.csproj",
+        "packagesPath": "C:\\Users\\Behrooz\\.nuget\\packages\\",
+        "outputPath": "E:\\Applications\\WingTipsToys.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Behrooz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Applications\\WinngTipsToys.DataAccessContract\\WingTipsToys.DataAccessContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Applications\\WinngTipsToys.DataAccessContract\\WingTipsToys.DataAccessContract.csproj",
+        "projectName": "WingTipsToys.DataAccessContract",
+        "projectPath": "E:\\Applications\\WinngTipsToys.DataAccessContract\\WingTipsToys.DataAccessContract.csproj",
+        "packagesPath": "C:\\Users\\Behrooz\\.nuget\\packages\\",
+        "outputPath": "E:\\Applications\\WinngTipsToys.DataAccessContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Behrooz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\Applications\\WingsTipsToys.Data\\WingTipsToys.Data.csproj": {
+                "projectPath": "E:\\Applications\\WingsTipsToys.Data\\WingTipsToys.Data.csproj"
+              },
+              "E:\\Applications\\WingTipsToys.Model\\WingTipsToys.Model.csproj": {
+                "projectPath": "E:\\Applications\\WingTipsToys.Model\\WingTipsToys.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.7.21379.14\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

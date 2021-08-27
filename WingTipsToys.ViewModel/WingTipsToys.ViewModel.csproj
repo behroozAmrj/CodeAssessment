@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CartItemsViewModels\CartItemDeleteRM.cs~RF13d2b899.TMP" />
+    <None Remove="CartItemsViewModels\CartItemInsertRM.cs~RF13d3bbf0.TMP" />
+    <None Remove="CartItemsViewModels\CartItemViewModel.cs~RF13d1582f.TMP" />
+    <None Remove="ProductSearchViewModel.cs~RF732a0c4.TMP" />
+    <None Remove="ProductViewModel.cs~RF12f7419e.TMP" />
+  </ItemGroup>
+
+</Project>

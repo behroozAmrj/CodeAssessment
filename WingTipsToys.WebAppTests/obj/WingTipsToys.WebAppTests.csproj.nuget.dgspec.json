@@ -1,0 +1,626 @@
+{
+  "format": 1,
+  "restore": {
+    "J:\\InterviewProjects\\WingTipsToys.WebAppTests\\WingTipsToys.WebAppTests.csproj": {}
+  },
+  "projects": {
+    "J:\\InterviewProjects\\AngularApp\\WingTipsToys.WebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\InterviewProjects\\AngularApp\\WingTipsToys.WebApp.csproj",
+        "projectName": "WingTipsToys.WebApp",
+        "projectPath": "J:\\InterviewProjects\\AngularApp\\WingTipsToys.WebApp.csproj",
+        "packagesPath": "C:\\Users\\Abhrcome\\.nuget\\packages\\",
+        "outputPath": "J:\\InterviewProjects\\AngularApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Abhrcome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "J:\\InterviewProjects\\WingTipsToys.BusinessContract\\WingTipsToys.BusinessContract.csproj": {
+                "projectPath": "J:\\InterviewProjects\\WingTipsToys.BusinessContract\\WingTipsToys.BusinessContract.csproj"
+              },
+              "J:\\InterviewProjects\\WingTipsToys.BusinessService\\WingTipsToys.BusinessService.csproj": {
+                "projectPath": "J:\\InterviewProjects\\WingTipsToys.BusinessService\\WingTipsToys.BusinessService.csproj"
+              },
+              "J:\\InterviewProjects\\WingTipsToys.DataAccess\\WingTipsToys.DataAccess.csproj": {
+                "projectPath": "J:\\InterviewProjects\\WingTipsToys.DataAccess\\WingTipsToys.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "J:\\InterviewProjects\\WingsTipsToys.Data\\WingTipsToys.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\InterviewProjects\\WingsTipsToys.Data\\WingTipsToys.Data.csproj",
+        "projectName": "WingTipsToys.Data",
+        "projectPath": "J:\\InterviewProjects\\WingsTipsToys.Data\\WingTipsToys.Data.csproj",
+        "packagesPath": "C:\\Users\\Abhrcome\\.nuget\\packages\\",
+        "outputPath": "J:\\InterviewProjects\\WingsTipsToys.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Abhrcome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "J:\\InterviewProjects\\WingTipsToys.Model\\WingTipsToys.Model.csproj": {
+                "projectPath": "J:\\InterviewProjects\\WingTipsToys.Model\\WingTipsToys.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "J:\\InterviewProjects\\WingTipsToys.BusinessContract\\WingTipsToys.BusinessContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\InterviewProjects\\WingTipsToys.BusinessContract\\WingTipsToys.BusinessContract.csproj",
+        "projectName": "WingTipsToys.BusinessContract",
+        "projectPath": "J:\\InterviewProjects\\WingTipsToys.BusinessContract\\WingTipsToys.BusinessContract.csproj",
+        "packagesPath": "C:\\Users\\Abhrcome\\.nuget\\packages\\",
+        "outputPath": "J:\\InterviewProjects\\WingTipsToys.BusinessContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Abhrcome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "J:\\InterviewProjects\\WingsTipsToys.Data\\WingTipsToys.Data.csproj": {
+                "projectPath": "J:\\InterviewProjects\\WingsTipsToys.Data\\WingTipsToys.Data.csproj"
+              },
+              "J:\\InterviewProjects\\WingTipsToys.Model\\WingTipsToys.Model.csproj": {
+                "projectPath": "J:\\InterviewProjects\\WingTipsToys.Model\\WingTipsToys.Model.csproj"
+              },
+              "J:\\InterviewProjects\\WingTipsToys.ViewModel\\WingTipsToys.ViewModel.csproj": {
+                "projectPath": "J:\\InterviewProjects\\WingTipsToys.ViewModel\\WingTipsToys.ViewModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "J:\\InterviewProjects\\WingTipsToys.BusinessService\\WingTipsToys.BusinessService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\InterviewProjects\\WingTipsToys.BusinessService\\WingTipsToys.BusinessService.csproj",
+        "projectName": "WingTipsToys.BusinessService",
+        "projectPath": "J:\\InterviewProjects\\WingTipsToys.BusinessService\\WingTipsToys.BusinessService.csproj",
+        "packagesPath": "C:\\Users\\Abhrcome\\.nuget\\packages\\",
+        "outputPath": "J:\\InterviewProjects\\WingTipsToys.BusinessService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Abhrcome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "J:\\InterviewProjects\\WingsTipsToys.Data\\WingTipsToys.Data.csproj": {
+                "projectPath": "J:\\InterviewProjects\\WingsTipsToys.Data\\WingTipsToys.Data.csproj"
+              },
+              "J:\\InterviewProjects\\WingTipsToys.BusinessContract\\WingTipsToys.BusinessContract.csproj": {
+                "projectPath": "J:\\InterviewProjects\\WingTipsToys.BusinessContract\\WingTipsToys.BusinessContract.csproj"
+              },
+              "J:\\InterviewProjects\\WingTipsToys.Model\\WingTipsToys.Model.csproj": {
+                "projectPath": "J:\\InterviewProjects\\WingTipsToys.Model\\WingTipsToys.Model.csproj"
+              },
+              "J:\\InterviewProjects\\WingTipsToys.ViewModel\\WingTipsToys.ViewModel.csproj": {
+                "projectPath": "J:\\InterviewProjects\\WingTipsToys.ViewModel\\WingTipsToys.ViewModel.csproj"
+              },
+              "J:\\InterviewProjects\\WinngTipsToys.DataAccessContract\\WingTipsToys.DataAccessContract.csproj": {
+                "projectPath": "J:\\InterviewProjects\\WinngTipsToys.DataAccessContract\\WingTipsToys.DataAccessContract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "J:\\InterviewProjects\\WingTipsToys.DataAccess\\WingTipsToys.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\InterviewProjects\\WingTipsToys.DataAccess\\WingTipsToys.DataAccess.csproj",
+        "projectName": "WingTipsToys.DataAccess",
+        "projectPath": "J:\\InterviewProjects\\WingTipsToys.DataAccess\\WingTipsToys.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Abhrcome\\.nuget\\packages\\",
+        "outputPath": "J:\\InterviewProjects\\WingTipsToys.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Abhrcome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "J:\\InterviewProjects\\WingsTipsToys.Data\\WingTipsToys.Data.csproj": {
+                "projectPath": "J:\\InterviewProjects\\WingsTipsToys.Data\\WingTipsToys.Data.csproj"
+              },
+              "J:\\InterviewProjects\\WingTipsToys.Model\\WingTipsToys.Model.csproj": {
+                "projectPath": "J:\\InterviewProjects\\WingTipsToys.Model\\WingTipsToys.Model.csproj"
+              },
+              "J:\\InterviewProjects\\WinngTipsToys.DataAccessContract\\WingTipsToys.DataAccessContract.csproj": {
+                "projectPath": "J:\\InterviewProjects\\WinngTipsToys.DataAccessContract\\WingTipsToys.DataAccessContract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "J:\\InterviewProjects\\WingTipsToys.Model\\WingTipsToys.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\InterviewProjects\\WingTipsToys.Model\\WingTipsToys.Model.csproj",
+        "projectName": "WingTipsToys.Model",
+        "projectPath": "J:\\InterviewProjects\\WingTipsToys.Model\\WingTipsToys.Model.csproj",
+        "packagesPath": "C:\\Users\\Abhrcome\\.nuget\\packages\\",
+        "outputPath": "J:\\InterviewProjects\\WingTipsToys.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Abhrcome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "J:\\InterviewProjects\\WingTipsToys.ViewModel\\WingTipsToys.ViewModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\InterviewProjects\\WingTipsToys.ViewModel\\WingTipsToys.ViewModel.csproj",
+        "projectName": "WingTipsToys.ViewModel",
+        "projectPath": "J:\\InterviewProjects\\WingTipsToys.ViewModel\\WingTipsToys.ViewModel.csproj",
+        "packagesPath": "C:\\Users\\Abhrcome\\.nuget\\packages\\",
+        "outputPath": "J:\\InterviewProjects\\WingTipsToys.ViewModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Abhrcome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "J:\\InterviewProjects\\WingTipsToys.WebAppTests\\WingTipsToys.WebAppTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\InterviewProjects\\WingTipsToys.WebAppTests\\WingTipsToys.WebAppTests.csproj",
+        "projectName": "WingTipsToys.WebAppTests",
+        "projectPath": "J:\\InterviewProjects\\WingTipsToys.WebAppTests\\WingTipsToys.WebAppTests.csproj",
+        "packagesPath": "C:\\Users\\Abhrcome\\.nuget\\packages\\",
+        "outputPath": "J:\\InterviewProjects\\WingTipsToys.WebAppTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Abhrcome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "J:\\InterviewProjects\\AngularApp\\WingTipsToys.WebApp.csproj": {
+                "projectPath": "J:\\InterviewProjects\\AngularApp\\WingTipsToys.WebApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "J:\\InterviewProjects\\WinngTipsToys.DataAccessContract\\WingTipsToys.DataAccessContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "J:\\InterviewProjects\\WinngTipsToys.DataAccessContract\\WingTipsToys.DataAccessContract.csproj",
+        "projectName": "WingTipsToys.DataAccessContract",
+        "projectPath": "J:\\InterviewProjects\\WinngTipsToys.DataAccessContract\\WingTipsToys.DataAccessContract.csproj",
+        "packagesPath": "C:\\Users\\Abhrcome\\.nuget\\packages\\",
+        "outputPath": "J:\\InterviewProjects\\WinngTipsToys.DataAccessContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Abhrcome\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "J:\\InterviewProjects\\WingsTipsToys.Data\\WingTipsToys.Data.csproj": {
+                "projectPath": "J:\\InterviewProjects\\WingsTipsToys.Data\\WingTipsToys.Data.csproj"
+              },
+              "J:\\InterviewProjects\\WingTipsToys.Model\\WingTipsToys.Model.csproj": {
+                "projectPath": "J:\\InterviewProjects\\WingTipsToys.Model\\WingTipsToys.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

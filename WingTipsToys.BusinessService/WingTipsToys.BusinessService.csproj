@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WingsTipsToys.Data\WingTipsToys.Data.csproj" />
+    <ProjectReference Include="..\WingTipsToys.BusinessContract\WingTipsToys.BusinessContract.csproj" />
+    <ProjectReference Include="..\WingTipsToys.Model\WingTipsToys.Model.csproj" />
+    <ProjectReference Include="..\WingTipsToys.ViewModel\WingTipsToys.ViewModel.csproj" />
+    <ProjectReference Include="..\WinngTipsToys.DataAccessContract\WingTipsToys.DataAccessContract.csproj" />
+  </ItemGroup>
+
+</Project>

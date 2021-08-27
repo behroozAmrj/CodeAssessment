@@ -1,0 +1,59 @@
+async Task Main()
+{
+	var firstResult = await Categories.Where(x => x.CategoryName == "Cars")
+								 .Select(p => p.CategoryID)
+								 .ToArrayAsync();
+	firstResult.Dump();
+	
+	var secondResult = await Products.Where(x => firstResult.Contains((int)x.CategoryID))
+					 .ToListAsync();
+					
+	
+	secondResult.Dump();
+	
+	
+	var joinedResult = await Products.Join(Categories.Where(x => x.CategoryName =="Cars"),
+							   pro => pro.CategoryID,
+							   cat => cat.CategoryID,
+							   (pro,cat)
+							   => new {
+							   pro.ProductName
+							   })
+							.ToListAsync();
+							
+	joinedResult.Dump();
+	
+	
+	await getProducts().Dump();
+	await getPro().Dump("PRO");
+	await getJoinedProduct().Dump("Get Joined Product");
+}
+
+
+private  Task<List<Products>> getProducts()
+{
+	return (Products.ToListAsync());
+}
+
+private Task<List<Products>> getPro()
+{
+	var result  = from i in Products
+			  from j in Categories
+			  select i;
+	return(result.ToListAsync());
+}
+
+
+private Task<List<Products>> getJoinedProduct()
+{
+	var result = Products.Join(Categories,
+				        pro => pro.CategoryID,
+					  cat => cat.CategoryID,
+					  (pro,cat) => pro)
+					  .ToListAsync();
+	return(result);
+}
+
+
+
+// You can define other methods, fields, classes and namespaces here
